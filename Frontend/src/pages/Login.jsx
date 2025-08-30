@@ -37,6 +37,8 @@ export default function Login() {
 
   const submittedData = (data) => console.log(data);
 
+  //should i send  the data to the backend direclty from here ???
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
       <form
